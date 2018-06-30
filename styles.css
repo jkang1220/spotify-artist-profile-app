@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Questrial", sans-serif;
+}
+
+#related-artists-container {
+  border: 2px solid white;
+  padding: 20px;
+}
+
+#artist-top-ten-container {
+  border: 2px solid white;
+  padding: 20px;
+}
+
+#artist-block-container {
+  border: 2px solid white;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#related-artists-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 23%);
+  grid-template-rows: repeat(5, 19%);
+  padding: 10px;
+  margin: 10px;
+}
+
+.artist-block {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-top-ten {
+  border: 2px solid white;
+}
+
+.related-artists-list-item {
+  text-align: center;
+  width: auto;
+  height: 250px;
+  align-self: end;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #a5a5a5;
+  box-shadow: 5px 5px #535353;
+}
+
+button {
+  font-size: 0.75rem;
+  background-color: #84bd00;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 1.25rem;
+}
