@@ -5,6 +5,7 @@ Basic Artist Profile App using the Spotify API
 ## Specs
 
 1.  This app consists of three sections:
+
     a. Artist Block
 
     - Shows Artist Name
