@@ -1,3 +1,11 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 10;
+  padding: 10;
+}
+
 body {
   background-color: black;
   color: white;
@@ -33,9 +41,35 @@ body {
   padding: 10px;
   margin: 10px;
 }
+#artist-top-ten-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(5, 19%);
+  grid-template-rows: repeat(2, 48%);
+  padding: 10px;
+  margin: 10px;
+}
+
+.header {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.artist-top-ten-list-item {
+  text-align: center;
+  width: auto;
+  height: 150px;
+  align-self: end;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #a5a5a5;
+  box-shadow: 5px 5px #535353;
+}
 
 .artist-block {
-  display: flex;
+  display: grid;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
@@ -58,8 +92,14 @@ body {
 }
 
 button {
-  font-size: 0.75rem;
-  background-color: #84bd00;
+  font-size: 0.85rem;
+  background-color: #8eca00;
+  border-radius: 5px;
+}
+button:hover {
+  font-size: 0.85rem;
+  background-color: white;
+  border-radius: 5px;
 }
 
 img {
@@ -73,5 +113,13 @@ li {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 0.75rem;
+}
+
+iframe {
+  float: center;
+  display: block;
+  width: 300px;
+  margin: auto;
+  border: 0;
 }
